@@ -21,11 +21,11 @@ public class CustomerDetailsUpdated{
             false)
     private long custId;
 
-    @Basic
+
     @Column(name = "doj", nullable = false)
     private Timestamp doj;
 
-    @Basic
+
     @Column(name = "cust_name", nullable = false, length = 200)
     private String custName;
 
