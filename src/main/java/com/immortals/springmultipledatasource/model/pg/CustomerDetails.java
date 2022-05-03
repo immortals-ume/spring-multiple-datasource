@@ -1,4 +1,4 @@
-package com.immortals.springmultipledatasource.model;
+package com.immortals.springmultipledatasource.model.pg;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -13,15 +13,15 @@ import java.sql.Timestamp;
 public class CustomerDetails{
 
 
-@GeneratedValue(strategy = GenerationType.IDENTITY)
-@Id
-@Column(name = "cust_id", nullable = false)
-private long custId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @Column(name = "cust_id", nullable = false)
+    private long custId;
 
-@Column(name = "doj", nullable = false)
-private Timestamp doj;
+    @Column(name = "doj", nullable = false)
+    private Timestamp doj;
 
-@Column(name = "cust_name", nullable = false, length = 200)
-private String custName;
+    @Column(name = "cust_name", nullable = false, length = 200)
+    private String custName;
 
 }

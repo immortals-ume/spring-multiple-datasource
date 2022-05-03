@@ -3,11 +3,10 @@ package com.immortals.springmultipledatasource;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class SpringMultipleDatasourceApplicationTests {
+@SpringBootTest class SpringMultipleDatasourceApplicationTests{
 
-	@Test
-	void contextLoads() {
-	}
+
+    @Test void contextLoads(){
+    }
 
 }

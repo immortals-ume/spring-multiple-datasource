@@ -1,4 +1,4 @@
-package com.immortals.springmultipledatasource.model;
+package com.immortals.springmultipledatasource.model.sql;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
